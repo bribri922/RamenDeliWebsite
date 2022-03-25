@@ -331,8 +331,8 @@ async function DisplayRamenItems() {
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-md-2 col-6 text-md-start text-end py-3">
-                            <div class="btn-group p-0" role="group">
+                          <div class="col text-md-start text-center py-3">
+                            <div class="btn-group p-0 " role="group">
                               <button id="btn-qty-deduct" type="button" class="btn btn-danger p-0" style="height:1.2em" onclick="DecreaseQty(this)">
                                 <i class="bi bi-dash d-inline-flex"></i>
                               </button>
@@ -341,8 +341,6 @@ async function DisplayRamenItems() {
                                 <i class="bi bi-plus d-inline-flex"></i>
                               </button>
                             </div>
-                          </div>
-                          <div class="col-md-10 col-6 text-md-start text-start py-3 ">
                             <button id="${item.itemName} Sales" type="button" class="btn btn-dark btn-sm font-ribeye text-white fs-7" onclick="AddSales(this.id)">Add Sales Count</button>
                           </div>
                         </div>
