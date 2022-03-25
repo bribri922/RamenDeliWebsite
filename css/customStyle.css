@@ -1,0 +1,36 @@
+.font-ribeye {
+  font-family: "Ribeye", cursive;
+  font-weight: bold;
+  color: #ffb800;
+}
+
+.bg-custom-1 {
+  background-color: #4d3a2a;
+}
+
+.bg-custom-2 {
+  background-color: #f2ebce;
+}
+
+.bg-custom-3 {
+  background-color: #c7ac71;
+}
+
+.bkg-ramen {
+  background-image: url("/images/ramen1920x1080.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.font-border-effect-1 {
+  text-shadow: -3px 0 rgb(46, 24, 0), 0 3px rgb(46, 24, 0), 3px 0 rgb(46, 24, 0),
+    0 -3px rgb(46, 24, 0);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
