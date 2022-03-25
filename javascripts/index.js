@@ -273,8 +273,8 @@ async function DisplayRamenItems() {
       count += parseInt(salesQtyCount.salesQty);
     }
     //creates the card for each item
-    contentsDisplay.innerHTML += `<div class="col-md-4 my-5">
-          <div class="card mx-auto text-center text-white bg-dark" style="width: 90%; border: #DAAF7F solid">
+    contentsDisplay.innerHTML += `<div class="col-md-4 col-8 my-5">
+          <div id="cardStyle" class="card mx-auto text-center text-white bg-dark " style="width:88%; border: #DAAF7F solid">
             <button id="${item.itemName}" type="button" class="card-img-overlay bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#${item.itemId}" onclick="DisplaySalesOfRamenItem_1(this.id,this.id)"></button>
             <img src="${item.itemImageUrl}" class="card-img-top" style="height: 350px;" alt="A ramen picture">
             <div class="card-body overflow-hidden" style="height: 10rem">

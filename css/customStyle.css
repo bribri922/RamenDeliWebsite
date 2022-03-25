@@ -33,4 +33,9 @@ td {
   border: 1px solid black;
 }
 
+.cardStyle {
+  width: 20%;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+@import url("/javascripts/index.js");
