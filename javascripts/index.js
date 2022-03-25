@@ -190,7 +190,7 @@ function ConvertMonthToWords(monthINum) {
 async function AddSales(storageName) {
   let dateTimeSalesAdded;
   let qty;
-  const request = "http://worldtimeapi.org/api/timezone/asia/singapore"; //prettier-ignore this is the api
+  const request = "https://worldtimeapi.org/api/timezone/asia/singapore"; //prettier-ignore this is the api
 
   let salesCount;
   let sales = await ramenItemsData.collection(`${storageName}`).get() //prettier-ignore
